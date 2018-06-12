@@ -1,5 +1,4 @@
 set(CPF_CONFIG "VS2017-static" CACHE STRING "the config name" FORCE)
-set(CPF_CONFIG_FILE "${CMAKE_CURRENT_LIST_FILE}" CACHE FILEPATH "The path to the used .config.cmake file.")
 
 include("${CMAKE_CURRENT_LIST_DIR}/../CPFCMake/DefaultConfigurations/Windows.config.cmake")
 
