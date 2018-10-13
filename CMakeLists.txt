@@ -1,5 +1,5 @@
 # This package contains files that provide build-configurations for the CI-Build-Server.
-include(cpfAddPackage)
+include(cpfAddCppPackage)
 
 cpfInitPackageProject(
 	PACKAGE_NAME
