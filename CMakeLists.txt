@@ -1,5 +1,6 @@
 # This package contains files that provide build-configurations for the CI-Build-Server.
-include(cpfAddCppPackage)
+include(cpfInitPackageProject)
+include(cpfAddFilePackage)
 
 cpfInitPackageProject(
 	PACKAGE_NAME
@@ -16,4 +17,6 @@ set(files
 	VS2017-static.config.cmake
 )
 
-cpfAddFilePackage( ${PACKAGE_NAME} "${files}" )
+cpfAddFilePackage(
+	SOURCES "${files}"
+)
