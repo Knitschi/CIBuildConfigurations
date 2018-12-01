@@ -2,10 +2,7 @@
 include(cpfInitPackageProject)
 include(cpfAddFilePackage)
 
-cpfInitPackageProject(
-	PACKAGE_NAME
-	cibc
-)
+cpfInitPackageProject()
 
 set(files
 	Clang-shared-debug.config.cmake
