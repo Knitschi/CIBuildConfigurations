@@ -7,6 +7,7 @@ set( CMAKE_BUILD_TYPE "Debug" CACHE STRING "The compile configuration used by si
 set( BUILD_SHARED_LIBS ON CACHE BOOL "Set this to ON to create all production target libraries as shared libries. The fixture libraries and libraries created for executables are always static libraries." FORCE)
 
 set( CPF_ENABLE_ABI_API_COMPATIBILITY_REPORT_TARGETS ON CACHE BOOL "Enables targets that create ABI/API compatibility reports and checking." FORCE)
+set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets that run clang-format." FORCE)
 
 # Locations
 set( CPF_TEST_FILES_DIR "~/Temp/CPF_tests/${CPF_CONFIG}" CACHE PATH "The directory under which the automated tests may create temporary files." FORCE )
