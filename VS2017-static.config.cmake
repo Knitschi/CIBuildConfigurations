@@ -4,7 +4,7 @@ include("${CMAKE_CURRENT_LIST_DIR}/../CPFCMake/DefaultConfigurations/Windows.con
 
 
 set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets that run clang-format." FORCE)
-
+set( CPF_CLANG_FORMAT_EXE "clang-format" CACHE STRING "name of the clang-format tool" FORCE)
 
 # LOCATIONS
 set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the distribution of the last build can be downloaded." FORCE)
