@@ -9,7 +9,7 @@ set(files
 	Clang-static-release.config.cmake
 	cpfCIBuildConfigurations.json
 	Gcc-shared-debug.config.cmake
-	README.md
+	README.rst
 	VS2017-shared.config.cmake
 	VS2017-static.config.cmake
 )
