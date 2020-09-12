@@ -10,8 +10,14 @@ set(files
 	cpfCIBuildConfigurations.json
 	Gcc-shared-debug.config.cmake
 	README.rst
-	VS2017-shared.config.cmake
-	VS2017-static.config.cmake
+	ConanProfile-Clang-static-release
+	ConanProfile-Clang-shared-debug
+	ConanProfile-Gcc-shared-debug
+	ConanProfile-VS2019-shared-debug
+	ConanProfile-VS2019-static-release
+	VS2019-shared.config.cmake
+	VS2019-shared-debug.config.cmake
+	VS2019-static-release.config.cmake
 )
 
 cpfAddFilePackage(
