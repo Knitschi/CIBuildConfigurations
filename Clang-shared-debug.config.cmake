@@ -8,8 +8,8 @@ set( BUILD_SHARED_LIBS ON CACHE BOOL "Set this to ON to create all production ta
 
 set( CPF_ENABLE_ABI_API_COMPATIBILITY_REPORT_TARGETS ON CACHE BOOL "Enables targets that create ABI/API compatibility reports and checking." FORCE)
 set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets that run clang-format." FORCE)
-set( CPF_CLANG_FORMAT_EXE "clang-format-6.0" CACHE STRING "name of the clang-format executable" FORCE)
-set( CPF_CLANG_TIDY_EXE "clang-tidy-4.0" CACHE STRING "name of the clang-tidy executable" FORCE)
+set( CPF_CLANG_FORMAT_EXE "clang-format-10" CACHE STRING "name of the clang-format executable" FORCE)
+set( CPF_CLANG_TIDY_EXE "clang-tidy-10" CACHE STRING "name of the clang-tidy executable" FORCE)
 
 
 # Locations
