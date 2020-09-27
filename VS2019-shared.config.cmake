@@ -12,6 +12,9 @@ set( CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_LIST_DIR}/../CPFCMake/DefaultConfigur
 set( BUILD_SHARED_LIBS ON CACHE BOOL "Set this to ON to create all production target libraries as shared libries. The fixture libraries and libraries created for executables are always static libraries." FORCE)
 set( CPF_HAS_GOOGLE_TEST_EXE TRUE CACHE BOOL "This option is currently only relevant when using Visual Studio with the GoogleTestAdaper. It will cause the CPF to create an empty file <test-exe>.is_google_test which helps the GoogleTestAdaper to discover the tests." FORCE)
 
+set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets that run clang-format." FORCE)
+set( CPF_CLANG_FORMAT_EXE "clang-format" CACHE STRING "name of the clang-format tool" FORCE)
+
 # LOCATIONS
 set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the distribution of the last build can be downloaded." FORCE)
 # LOCATIONS
