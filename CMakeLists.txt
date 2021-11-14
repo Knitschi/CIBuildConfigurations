@@ -1,6 +1,6 @@
 # This package contains files that provide build-configurations for the CI-Build-Server.
 include(cpfPackageProject)
-include(cpfAddFilePackage)
+include(cpfAddFilePackageComponent)
 
 cpfPackageProject(
 	TARGET_NAMESPACE CIConfig
@@ -23,6 +23,6 @@ set(files
 	VS2019-static-release.config.cmake
 )
 
-cpfAddFilePackage(
+cpfAddFilePackageComponent(
 	SOURCES "${files}"
 )
