@@ -1,8 +1,11 @@
 # This package contains files that provide build-configurations for the CI-Build-Server.
-include(cpfInitPackageProject)
+include(cpfPackageProject)
 include(cpfAddFilePackage)
 
-cpfInitPackageProject()
+cpfPackageProject(
+	TARGET_NAMESPACE CIConfig
+	COMPONENTS SINGLE_COMPONENT
+)
 
 set(files
 	Clang-shared-debug.config.cmake
