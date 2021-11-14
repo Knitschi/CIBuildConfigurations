@@ -1,4 +1,4 @@
-# This package-component contains files that provide build-configurations for the CI-Build-Server.
+# This package contains files that provide build-configurations for the CI-Build-Server.
 include(cpfPackageProject)
 include(cpfAddFilePackage)
 
