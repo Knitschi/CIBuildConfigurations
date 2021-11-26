@@ -27,4 +27,4 @@ cpfAddFilePackageComponent(
 	SOURCES "${files}"
 )
 
-finalizePackageProject()
+cpfFinalizePackageProject()
