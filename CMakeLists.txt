@@ -26,3 +26,5 @@ set(files
 cpfAddFilePackageComponent(
 	SOURCES "${files}"
 )
+
+finalizePackageProject()
