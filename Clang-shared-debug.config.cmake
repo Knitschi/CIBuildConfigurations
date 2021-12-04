@@ -14,5 +14,5 @@ set( CPF_CLANG_TIDY_EXE "clang-tidy-10" CACHE STRING "name of the clang-tidy exe
 
 # Locations
 set( CPF_TEST_FILES_DIR "~/Temp/CPF_tests/${CPF_CONFIG}" CACHE PATH "The directory under which the automated tests may create temporary files." FORCE )
-set( CPF_WEBSERVER_BASE_DIR "http://buildmasterdebian9:8082" CACHE STRING "An url from which the distribution of the last build can be downloaded." FORCE)
+set( CPF_WEBSERVER_BASE_DIR "http://buildmasterdebian9:8082" CACHE STRING "An url from which the install directory content of the last build can be downloaded." FORCE)
 set( Qt5_DIR "/usr/local/Qt-5.9.1/debug/lib/cmake/Qt5" CACHE STRING "Location of Qt" FORCE)

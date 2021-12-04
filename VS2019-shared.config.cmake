@@ -15,7 +15,7 @@ set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets tha
 set( CPF_CLANG_FORMAT_EXE "clang-format" CACHE STRING "name of the clang-format tool" FORCE)
 
 # LOCATIONS
-set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the distribution of the last build can be downloaded." FORCE)
+set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the install directory content of the last build can be downloaded." FORCE)
 # LOCATIONS
 # we need a shorter test file directory to prevent trouble with path limitations
 set( CPF_TEST_FILES_DIR "C:/Temp/BuildCPFAssistant_tests" CACHE PATH "The directory under which the automated tests may create temporary files." FORCE )

@@ -20,6 +20,6 @@ set( CPF_CLANG_TIDY_EXE "clang-tidy-10" CACHE STRING "name of the clang-tidy exe
 
 # LOCATIONS
 set( CPF_TEST_FILES_DIR "~/Temp/CPF_tests/${CPF_CONFIG}" CACHE PATH "The directory under which the automated tests may create temporary files." FORCE )
-set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the distribution of the last build can be downloaded." FORCE)
+set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the install directory content of the last build can be downloaded." FORCE)
 # At some point this should be done by hunter
 set( Qt5_DIR "/usr/local/Qt-5.9.1/release/lib/cmake/Qt5" CACHE STRING "Location of Qt" FORCE)
