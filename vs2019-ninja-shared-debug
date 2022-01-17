@@ -1,0 +1,5 @@
+include(vs2019-x86_64-shared-debug)
+[options]
+CPF_CONFIG=vs2019-ninja-x86_64-shared-debug
+CMAKE_GENERATOR=Ninja
+CMAKE_MAKE_PROGRAM=ninja
