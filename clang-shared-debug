@@ -9,7 +9,7 @@ compiler.version=10
 build_type=Debug
 compiler.libcxx=libstdc++11
 [options]
-CPF_CONFIG=clang-x86_64-shared-debug
+CPF_CONFIG=clang-shared-debug
 shared=True
 CMAKE_C_COMPILER=/usr/bin/clang-10
 CMAKE_CXX_COMPILER=/usr/bin/clang++-10

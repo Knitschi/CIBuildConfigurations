@@ -9,7 +9,7 @@ compiler.version=16
 compiler.toolset=v142
 build_type=Debug
 [options]
-CPF_CONFIG=vs2019-x86_64-shared-debug
+CPF_CONFIG=vs2019-shared-debug
 shared=True
 CMAKE_GENERATOR=Visual Studio 16 2019
 CPF_ENABLE_OPENCPPCOVERAGE_TARGET=TRUE

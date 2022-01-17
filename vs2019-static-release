@@ -9,7 +9,7 @@ compiler.version=16
 compiler.toolset=v142
 build_type=Release
 [options]
-CPF_CONFIG=vs2019-x86_64-static-release
+CPF_CONFIG=vs2019-static-release
 shared=False
 CMAKE_GENERATOR=Visual Studio 16 2019
 CPF_ENABLE_OPENCPPCOVERAGE_TARGET=TRUE

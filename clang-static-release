@@ -9,7 +9,7 @@ compiler.version=10
 build_type=Release
 compiler.libcxx=libstdc++11
 [options]
-CPF_CONFIG=clang-x86_64-static-release
+CPF_CONFIG=clang-static-release
 shared=False
 CMAKE_C_COMPILER=/usr/bin/clang-10
 CMAKE_CXX_COMPILER=/usr/bin/clang++-10
