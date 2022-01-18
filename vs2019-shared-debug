@@ -1,16 +1,8 @@
 include(cpf-CI)
+include(vs2019-shared-debug-base)
 [settings]
-os=Windows
-os_build=Windows
-arch=x86_64
-arch_build=x86_64
-compiler=Visual Studio
-compiler.version=16
-compiler.toolset=v142
-build_type=Debug
 [options]
 CPF_CONFIG=vs2019-shared-debug
-shared=True
 CMAKE_GENERATOR=Visual Studio 16 2019
 CPF_ENABLE_OPENCPPCOVERAGE_TARGET=TRUE
 [build_requires]

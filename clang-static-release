@@ -1,16 +1,8 @@
 include(cpf-CI)
+include(clang-static-release-base)
 [settings]
-os=Linux
-os_build=Linux
-arch=x86_64
-arch_build=x86_64
-compiler=clang
-compiler.version=10
-build_type=Release
-compiler.libcxx=libstdc++11
 [options]
 CPF_CONFIG=clang-static-release
-shared=False
 CMAKE_C_COMPILER=/usr/bin/clang-10
 CMAKE_CXX_COMPILER=/usr/bin/clang++-10
 CMAKE_GENERATOR=Ninja
