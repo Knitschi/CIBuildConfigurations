@@ -2,4 +2,3 @@ include(vs2019-ninja-shared-debug-base)
 [options]
 CPF_CONFIG=vs2019-ninja-shared-debug
 CMAKE_GENERATOR=Ninja
-CMAKE_MAKE_PROGRAM=ninja
