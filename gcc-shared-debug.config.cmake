@@ -12,6 +12,7 @@ set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets tha
 set( CPF_CLANG_FORMAT_EXE "clang-format-10" CACHE STRING "name of the clang-format tool" FORCE)
 set( CPF_ENABLE_CLANG_TIDY_TARGET "OFF" CACHE BOOL "Activates custom targets that run clang-tidy." FORCE )
 set( CPF_ENABLE_ACYCLIC_TARGET ON CACHE BOOL "Activates custom target that fails if the dependency tree is not acyclic." FORCE)
+set( CPF_ENABLE_PRECOMPILED_HEADER TRUE CACHE BOOL "Switch the use of precompiled headers on and off." FORCE)
 
 # Locations
 set( CPF_TEST_FILES_DIR "~/Temp/CPF_tests/${CPF_CONFIG}" CACHE PATH "The directory under which the automated tests may create temporary files." FORCE )
