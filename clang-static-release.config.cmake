@@ -15,6 +15,7 @@ set( CMAKE_BUILD_TYPE "Release" CACHE STRING "The compile configuration used by 
 set( BUILD_SHARED_LIBS OFF CACHE BOOL "Set this to ON to create all production target libraries as shared libries. The fixture libraries and libraries created for executables are always static libraries." FORCE)
 set( CPF_ENABLE_PRECOMPILED_HEADER OFF CACHE BOOL "Switch the use of precompiled headers on and off." FORCE)
 set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets that run clang-format." FORCE)
+set( CPF_ENABLE_ACYCLIC_TARGET ON CACHE BOOL "Activates custom target that fails if the dependency tree is not acyclic." FORCE)
 set( CPF_CLANG_FORMAT_EXE "clang-format-10" CACHE STRING "name of the clang-format executable" FORCE)
 set( CPF_CLANG_TIDY_EXE "clang-tidy-10" CACHE STRING "name of the clang-tidy executable" FORCE)
 set( CMAKE_EXPORT_COMPILE_COMMANDS TRUE CACHE BOOL "" FORCE)

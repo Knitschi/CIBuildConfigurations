@@ -14,6 +14,7 @@ set( CPF_HAS_GOOGLE_TEST_EXE TRUE CACHE BOOL "This option is currently only rele
 set( CPF_ENABLE_CLANG_FORMAT_TARGETS ON CACHE BOOL "Activates custom targets that run clang-format." FORCE)
 set( CPF_CLANG_FORMAT_EXE "clang-format" CACHE STRING "name of the clang-format tool" FORCE)
 set( CPF_ENABLE_CLANG_TIDY_TARGET "OFF" CACHE BOOL "Activates custom targets that run clang-tidy." FORCE )
+set( CPF_ENABLE_ACYCLIC_TARGET ON CACHE BOOL "Activates custom target that fails if the dependency tree is not acyclic." FORCE)
 
 # LOCATIONS
 set( CPF_WEBPAGE_URL "http://buildmasterdebian9:8082" CACHE STRING "An url from which the install directory content of the last build can be downloaded." FORCE)
