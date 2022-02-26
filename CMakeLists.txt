@@ -26,6 +26,12 @@ set(files
 	vs2019-static-release-base
 	vs2019-ninja-shared-debug
 	vs2019-ninja-shared-debug-base
+	vs2022-shared-debug
+	vs2022-shared-debug-base
+	vs2022-static-release
+	vs2022-static-release-base
+	vs2022-ninja-shared-debug
+	vs2022-ninja-shared-debug-base
 )
 
 cpfAddFilePackageComponent(

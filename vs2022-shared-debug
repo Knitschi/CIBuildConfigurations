@@ -1,0 +1,9 @@
+include(cpf-CI)
+include(vs2022-shared-debug-base)
+[settings]
+[options]
+CPF_CONFIG=vs2022-shared-debug
+CMAKE_GENERATOR=Visual Studio 17 2022
+CPF_ENABLE_OPENCPPCOVERAGE_TARGET=TRUE
+[build_requires]
+[env]

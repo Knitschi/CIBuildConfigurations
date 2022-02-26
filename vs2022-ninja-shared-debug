@@ -1,0 +1,4 @@
+include(vs2022-ninja-shared-debug-base)
+[options]
+CPF_CONFIG=vs2022-ninja-shared-debug
+CMAKE_GENERATOR=Ninja
