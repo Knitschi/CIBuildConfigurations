@@ -1,10 +1,10 @@
 
-set(CPF_CONFIG "VS2019-shared" CACHE STRING "the config name" FORCE)
+set(CPF_CONFIG "VS2022-shared" CACHE STRING "the config name" FORCE)
 
 include( "${CMAKE_CURRENT_LIST_DIR}/../CPFCMake/DefaultConfigurations/Windows.config.cmake" )
 
 # GENERATOR AND TOOLCHAIN
-set( CMAKE_GENERATOR "Visual Studio 16 2019" CACHE STRING "The value of the -G option" FORCE) # When using the "Visual Studio" generators, this must be compatible to the compiler that is defined in the CMAKE_TOOLCHAIN_FILE
+set( CMAKE_GENERATOR "Visual Studio 17 2022" CACHE STRING "The value of the -G option" FORCE) # When using the "Visual Studio" generators, this must be compatible to the compiler that is defined in the CMAKE_TOOLCHAIN_FILE
 set( CMAKE_GENERATOR_PLATFORM "" CACHE STRING "The value of the -A option" FORCE)
 set( CMAKE_TOOLCHAIN_FILE "${CMAKE_CURRENT_LIST_DIR}/../CPFCMake/DefaultConfigurations/MSVC2019.cmake" CACHE PATH "The file that defines the compiler and compile options for all compile configurations." FORCE)
 

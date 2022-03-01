@@ -17,15 +17,9 @@ set(files
 	cpfCIBuildConfigurations.json
 	gcc-shared-debug.config.cmake
 	README.rst
-	vs2019-shared.config.cmake
-	vs2019-shared-debug.config.cmake
-	vs2019-shared-debug
-	vs2019-shared-debug-base
-	vs2019-static-release.config.cmake
-	vs2019-static-release
-	vs2019-static-release-base
-	vs2019-ninja-shared-debug
-	vs2019-ninja-shared-debug-base
+	vs2022-shared.config.cmake
+	vs2022-shared-debug.config.cmake
+	vs2022-static-release.config.cmake
 	vs2022-shared-debug
 	vs2022-shared-debug-base
 	vs2022-static-release
