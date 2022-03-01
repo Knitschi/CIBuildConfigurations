@@ -15,17 +15,17 @@
         "CompilerConfig" : ""
     },
     {
-        "ConfigName" : "vs2019-static-release",
+        "ConfigName" : "vs2022-static-release",
         "BuildSlaveLabel" : "Windows-10-0.0.0",
         "CompilerConfig" : "Release"
     },
     {
-        "ConfigName" : "vs2019-shared-debug",
+        "ConfigName" : "vs2022-shared-debug",
         "BuildSlaveLabel" : "Windows-10-0.0.0",
         "CompilerConfig" : "Debug"
     },
     {
-        "ConfigName" : "vs2019-ninja-shared-debug",
+        "ConfigName" : "vs2022-ninja-shared-debug",
         "BuildSlaveLabel" : "Windows-10-0.0.0",
         "CompilerConfig" : "Debug"
     }
